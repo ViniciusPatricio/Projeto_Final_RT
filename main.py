@@ -15,6 +15,4 @@ if __name__ == '__main__':
     db = BancoDados(host="localhost", user="root", password=password, database=database)
     db.connect()
 
-    print(db.connection)
-    print_hi('PyCharm')
 
