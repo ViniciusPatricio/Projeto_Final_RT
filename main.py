@@ -33,7 +33,6 @@ if __name__ == '__main__':
     #data2 = '2023-03-01 16:38:46'
     #print(register_db.dateClient(data1, data2, id_client))
 
-    #to_day = date.today()
-    #print(to_day)
-    #days_of_week = to_day.weekday()
-    #print(days_of_week)
+    data = register_db.allRegister_tablePrint(client_db)
+
+    print(data)
